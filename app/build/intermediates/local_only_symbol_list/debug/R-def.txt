@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+id btnContinue
+id btnPermissionOverlay
+id btnPermissionUsage
+id btnStartService
+id btnStopService
+id etCooldownLimit
+id etUsageLimit
+id tvCountdown
+id tvMessage
+layout activity_main
+layout overlay_warning
+mipmap ic_launcher

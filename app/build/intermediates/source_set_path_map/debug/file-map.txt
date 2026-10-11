@@ -1,0 +1,34 @@
+com.example.instagramcooldown.app-emoji2-1.2.0-0 C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\res
+com.example.instagramcooldown.app-cardview-1.0.0-1 C:\Users\soura\.gradle\caches\transforms-4\16fd92b123414b721b24770d8f538fe4\transformed\cardview-1.0.0\res
+com.example.instagramcooldown.app-appcompat-1.6.1-2 C:\Users\soura\.gradle\caches\transforms-4\200a0f18534ae7b23f8cb669c09e8c56\transformed\appcompat-1.6.1\res
+com.example.instagramcooldown.app-fragment-1.3.6-3 C:\Users\soura\.gradle\caches\transforms-4\2600579684a827a54a4d4c750c63ccb1\transformed\fragment-1.3.6\res
+com.example.instagramcooldown.app-recyclerview-1.1.0-4 C:\Users\soura\.gradle\caches\transforms-4\26565eb3c11eed0856ad09960fd4b494\transformed\recyclerview-1.1.0\res
+com.example.instagramcooldown.app-appcompat-resources-1.6.1-5 C:\Users\soura\.gradle\caches\transforms-4\2ce8f886b958d52e677b83f805ca26a2\transformed\appcompat-resources-1.6.1\res
+com.example.instagramcooldown.app-viewpager2-1.0.0-6 C:\Users\soura\.gradle\caches\transforms-4\2ecc34e91d836aa1a8532d972ed4d30a\transformed\viewpager2-1.0.0\res
+com.example.instagramcooldown.app-lifecycle-runtime-2.6.1-7 C:\Users\soura\.gradle\caches\transforms-4\398852b0c2b92f44ce8e87cf8957a1e4\transformed\lifecycle-runtime-2.6.1\res
+com.example.instagramcooldown.app-coordinatorlayout-1.1.0-8 C:\Users\soura\.gradle\caches\transforms-4\3f590d3affa80a550a3cdae9d2cd5e3e\transformed\coordinatorlayout-1.1.0\res
+com.example.instagramcooldown.app-core-1.12.0-9 C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\res
+com.example.instagramcooldown.app-emoji2-views-helper-1.2.0-10 C:\Users\soura\.gradle\caches\transforms-4\44466e7a88b484ae359c72be35ea577c\transformed\emoji2-views-helper-1.2.0\res
+com.example.instagramcooldown.app-annotation-experimental-1.3.0-11 C:\Users\soura\.gradle\caches\transforms-4\5a4c7d0226852663e01a0c0de168d0de\transformed\annotation-experimental-1.3.0\res
+com.example.instagramcooldown.app-lifecycle-livedata-core-2.6.1-12 C:\Users\soura\.gradle\caches\transforms-4\6bb22f9f36c49a9d602843ee3fe25a03\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.instagramcooldown.app-transition-1.2.0-13 C:\Users\soura\.gradle\caches\transforms-4\771bb1e60c7cd822a4935885b5d1bf46\transformed\transition-1.2.0\res
+com.example.instagramcooldown.app-startup-runtime-1.1.1-14 C:\Users\soura\.gradle\caches\transforms-4\77850ccf3e122ab93265c8563b8c38d6\transformed\startup-runtime-1.1.1\res
+com.example.instagramcooldown.app-core-ktx-1.12.0-15 C:\Users\soura\.gradle\caches\transforms-4\7d86fbac3b1ae63a4ba620d40341a52e\transformed\core-ktx-1.12.0\res
+com.example.instagramcooldown.app-lifecycle-process-2.6.1-16 C:\Users\soura\.gradle\caches\transforms-4\87953b0aafe19f5d0e5cfe0944be9a73\transformed\lifecycle-process-2.6.1\res
+com.example.instagramcooldown.app-lifecycle-viewmodel-savedstate-2.6.1-17 C:\Users\soura\.gradle\caches\transforms-4\98041d777bb0ca5a66d0465f4627b083\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.instagramcooldown.app-activity-1.8.0-18 C:\Users\soura\.gradle\caches\transforms-4\a23a511816dd82022933785937c606c5\transformed\activity-1.8.0\res
+com.example.instagramcooldown.app-savedstate-1.2.1-19 C:\Users\soura\.gradle\caches\transforms-4\a33672a72fbbf96cd4c582f0899eecfe\transformed\savedstate-1.2.1\res
+com.example.instagramcooldown.app-lifecycle-livedata-2.6.1-20 C:\Users\soura\.gradle\caches\transforms-4\ab093bfe43f36c99083abdf87a5b267c\transformed\lifecycle-livedata-2.6.1\res
+com.example.instagramcooldown.app-drawerlayout-1.1.1-21 C:\Users\soura\.gradle\caches\transforms-4\b2650b7ee77575fd8b2ad888743653bc\transformed\drawerlayout-1.1.1\res
+com.example.instagramcooldown.app-constraintlayout-2.1.4-22 C:\Users\soura\.gradle\caches\transforms-4\c004643c6408779311f315a1c8129deb\transformed\constraintlayout-2.1.4\res
+com.example.instagramcooldown.app-core-runtime-2.2.0-23 C:\Users\soura\.gradle\caches\transforms-4\cd046a93968c07d36e5e4f46a1ebbce5\transformed\core-runtime-2.2.0\res
+com.example.instagramcooldown.app-lifecycle-viewmodel-2.6.1-24 C:\Users\soura\.gradle\caches\transforms-4\cfcc4de683a866be92c86e4ae3f30372\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.instagramcooldown.app-material-1.11.0-25 C:\Users\soura\.gradle\caches\transforms-4\d761b0aa5cbba8e4a1cb2c332ef9053d\transformed\material-1.11.0\res
+com.example.instagramcooldown.app-profileinstaller-1.3.0-26 C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\res
+com.example.instagramcooldown.app-pngs-27 D:\Cron Jobs\Git\InstagramCooldown\app\build\generated\res\pngs\debug
+com.example.instagramcooldown.app-resValues-28 D:\Cron Jobs\Git\InstagramCooldown\app\build\generated\res\resValues\debug
+com.example.instagramcooldown.app-packageDebugResources-29 D:\Cron Jobs\Git\InstagramCooldown\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.instagramcooldown.app-packageDebugResources-30 D:\Cron Jobs\Git\InstagramCooldown\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.instagramcooldown.app-merged_res-31 D:\Cron Jobs\Git\InstagramCooldown\app\build\intermediates\merged_res\debug
+com.example.instagramcooldown.app-debug-32 D:\Cron Jobs\Git\InstagramCooldown\app\src\debug\res
+com.example.instagramcooldown.app-main-33 D:\Cron Jobs\Git\InstagramCooldown\app\src\main\res

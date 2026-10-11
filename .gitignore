@@ -13,7 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-
-# App-specific
-app/build/
-

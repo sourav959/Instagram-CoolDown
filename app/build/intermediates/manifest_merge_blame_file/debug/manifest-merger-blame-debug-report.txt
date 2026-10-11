@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.instagramcooldown"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+11-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:5:5-114
+11-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:6:5-78
+12-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:6:22-75
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:7:5-77
+13-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+14-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:8:5-89
+14-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:8:22-86
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:9:5-77
+15-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:10:22-78
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.instagramcooldown.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.instagramcooldown.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:12:5-43:19
+25        android:allowBackup="true"
+25-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-4\41c76400c1f89a9c164013b50ad4abd4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="Insta Cooldown"
+30-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:15:9-39
+31        android:supportsRtl="true"
+31-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:16:9-35
+32        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+32-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:17:9-65
+33        <activity
+33-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:19:9-26:20
+34            android:name="com.example.instagramcooldown.MainActivity"
+34-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:20:13-41
+35            android:exported="true" >
+35-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:21:13-36
+36            <intent-filter>
+36-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:22:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:23:17-69
+37-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:24:17-77
+39-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <receiver
+43-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:28:9-35:20
+44            android:name="com.example.instagramcooldown.BootReceiver"
+44-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:29:13-41
+45            android:exported="true" >
+45-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:30:13-36
+46            <intent-filter>
+46-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:31:13-34:29
+47                <action android:name="android.intent.action.BOOT_COMPLETED" />
+47-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:32:17-79
+47-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:32:25-76
+48                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+48-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:33:17-84
+48-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:33:25-81
+49            </intent-filter>
+50        </receiver>
+51
+52        <service
+52-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:37:9-42:19
+53            android:name="com.example.instagramcooldown.UsageTrackerService"
+53-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:38:13-48
+54            android:exported="false"
+54-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:40:13-37
+55            android:foregroundServiceType="specialUse" >
+55-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:39:13-55
+56            <property
+56-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:41:13-122
+57                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+57-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:41:23-82
+58                android:value="Tracking usage stats" />
+58-->D:\Cron Jobs\Git\InstagramCooldown\app\src\main\AndroidManifest.xml:41:83-119
+59        </service>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.example.instagramcooldown.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\soura\.gradle\caches\transforms-4\1420e6dd6317acc66adf6226f1f4e350\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\soura\.gradle\caches\transforms-4\87953b0aafe19f5d0e5cfe0944be9a73\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\soura\.gradle\caches\transforms-4\87953b0aafe19f5d0e5cfe0944be9a73\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\soura\.gradle\caches\transforms-4\87953b0aafe19f5d0e5cfe0944be9a73\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\soura\.gradle\caches\transforms-4\f6b7310b28c3e3823b015d86a787d1bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>
