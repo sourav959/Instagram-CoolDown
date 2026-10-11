@@ -58,9 +58,14 @@ class UsageTrackerService : Service() {
             .setContentTitle("Insta Cooldown Active")
             .setContentText("Tracking Instagram usage...")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
+            .setOngoing(true)
             .build()
-        startForeground(1, notification)
-        
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            startForeground(1, notification, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE)
+        } else {
+            startForeground(1, notification)
+        }
+
         handler.post(checkRunnable)
     }
 
@@ -117,6 +122,7 @@ class UsageTrackerService : Service() {
                     .setContentText(notifText)
                     .setSmallIcon(android.R.drawable.ic_dialog_info)
                     .setOnlyAlertOnce(true)
+                    .setOngoing(true)
                     .build()
                 notifManager.notify(1, notification)
             }

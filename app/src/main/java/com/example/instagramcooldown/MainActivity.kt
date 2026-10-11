@@ -3,6 +3,7 @@ package com.example.instagramcooldown
 import android.app.AppOpsManager
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -60,30 +61,34 @@ class MainActivity : AppCompatActivity() {
                 .putInt("cooldown_limit_min", cooldownMin)
                 .apply()
 
-            val intent = Intent(this, UsageTrackerService::class.java)
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                startForegroundService(intent)
-            } else {
-                startService(intent)
-            }
+            ServiceController.setEnabled(this, true)
+            ServiceController.start(this)
             Toast.makeText(this, "Service started", Toast.LENGTH_SHORT).show()
+        }
+
+        findViewById<Button>(R.id.btnStopService).setOnClickListener {
+            ServiceController.setEnabled(this, false)
+            ServiceController.stop(this)
+            Toast.makeText(this, "Service stopped", Toast.LENGTH_SHORT).show()
+        }
+
+        if (Build.VERSION.SDK_INT >= 33 &&
+            checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) {
+            requestPermissions(arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 1)
         }
     }
 
-    private fun hasUsageStatsPermission(): Boolean {
-        val appOps = getSystemService(Context.APP_OPS_SERVICE) as AppOpsManager
-        val mode = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            appOps.unsafeCheckOpNoThrow(
-                AppOpsManager.OPSTR_GET_USAGE_STATS,
-                android.os.Process.myUid(), packageName
-            )
-        } else {
-            appOps.checkOpNoThrow(
-                AppOpsManager.OPSTR_GET_USAGE_STATS,
-                android.os.Process.myUid(), packageName
-            )
-        }
-        return mode == AppOpsManager.MODE_ALLOWED
+    override fun onResume() {
+        super.onResume()
+        ServiceController.startIfEnabled(this)
     }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        ServiceController.startIfEnabled(this)
+    }
+
+    private fun hasUsageStatsPermission() = ServiceController.hasUsageStatsPermission(this)
 }
 

@@ -14,3 +14,4 @@ Insta Cooldown is an Android application designed to help you manage and limit y
 ## How It Works
 
 The app utilizes Android's `UsageStatsManager` to monitor foreground activity accurately, accounting for pauses and background switches. It operates via a Foreground Service to ensure it stays active and uses the `SYSTEM_ALERT_WINDOW` permission to display the warning overlay.
+
